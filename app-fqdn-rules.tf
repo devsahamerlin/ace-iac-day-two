@@ -3,6 +3,7 @@ locals {
   egress_rules = {
     tcp = {
       "*.aviatrix.com" = "443"
+      "*.ubuntu.com"   = "80"
       "aviatrix.com"   = "80"
     }
     udp = {
